@@ -59,6 +59,13 @@ namespace API_Escola.Controllers
 
             return Ok();
         }
+
+        [HttpGet("buscar/{dado_usuario}", Name = "Buscar Por nome e cpf")]
+        public ActionResult<Aluno> buscarPorNomeCpf(string dado_usuario)
+        {
+            var aluno = _alunos.FirstOrDefault(a => a.sCPF == dado_usuario || a.sNome == dado_usuario);
+            return Ok(aluno);
+        }
     }
 
 }
