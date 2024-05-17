@@ -30,3 +30,4 @@ C:\Users\igorj\Documents\desafio fullstack\uma api para o desafio fullstack\API_
 C:\Users\igorj\Documents\desafio fullstack\uma api para o desafio fullstack\API_Escola\obj\Debug\net8.0\API_Escola.pdb
 C:\Users\igorj\Documents\desafio fullstack\uma api para o desafio fullstack\API_Escola\obj\Debug\net8.0\API_Escola.genruntimeconfig.cache
 C:\Users\igorj\Documents\desafio fullstack\uma api para o desafio fullstack\API_Escola\obj\Debug\net8.0\ref\API_Escola.dll
+C:\Users\igorj\Documents\desafio fullstack\uma api para o desafio fullstack\API_Escola\obj\Debug\net8.0\API_Escola.sourcelink.json

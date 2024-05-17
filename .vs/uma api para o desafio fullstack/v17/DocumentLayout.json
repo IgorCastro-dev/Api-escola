@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igorj\\documents\\desafio fullstack\\uma api para o desafio fullstack\\api_escola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igorj\\documents\\desafio fullstack\\uma api para o desafio fullstack\\api_escola\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igorj\\documents\\desafio fullstack\\uma api para o desafio fullstack\\api_escola\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igorj\\documents\\desafio fullstack\\uma api para o desafio fullstack\\api_escola\\api_escola.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\api_escola.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igorj\\documents\\desafio fullstack\\uma api para o desafio fullstack\\api_escola\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igorj\\documents\\desafio fullstack\\uma api para o desafio fullstack\\api_escola\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igorj\\documents\\desafio fullstack\\uma api para o desafio fullstack\\api_escola\\models\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\models\\escola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,28 +38,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "API_Escola\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "API_Escola\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Program.cs",
+              "RelativeDocumentMoniker": "API_Escola\\Program.cs",
+              "ToolTip": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Program.cs",
+              "RelativeToolTip": "API_Escola\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T16:17:59.543Z",
+              "WhenOpened": "2024-05-16T17:06:36.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "API_Escola\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\WeatherForecast.cs",
+              "RelativeToolTip": "API_Escola\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:44:59.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "API_Escola\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "API_Escola\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:17:59.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "API_Escola.http",
               "DocumentMoniker": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\API_Escola.http",
               "RelativeDocumentMoniker": "API_Escola\\API_Escola.http",
@@ -47,8 +87,47 @@
               "RelativeToolTip": "API_Escola\\API_Escola.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-16T16:16:24.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T16:16:24.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Models\\Aluno.cs",
+              "RelativeDocumentMoniker": "API_Escola\\Models\\Aluno.cs",
+              "ToolTip": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Models\\Aluno.cs",
+              "RelativeToolTip": "API_Escola\\Models\\Aluno.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:16:09.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlunoController.cs",
+              "DocumentMoniker": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Controllers\\AlunoController.cs",
+              "RelativeDocumentMoniker": "API_Escola\\Controllers\\AlunoController.cs",
+              "ToolTip": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Controllers\\AlunoController.cs",
+              "RelativeToolTip": "API_Escola\\Controllers\\AlunoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:54:05.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Escola.cs",
+              "DocumentMoniker": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Models\\Escola.cs",
+              "RelativeDocumentMoniker": "API_Escola\\Models\\Escola.cs",
+              "ToolTip": "C:\\Users\\igorj\\Documents\\desafio fullstack\\uma api para o desafio fullstack\\API_Escola\\Models\\Escola.cs",
+              "RelativeToolTip": "API_Escola\\Models\\Escola.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:47:45.286Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
