@@ -1,6 +1,5 @@
 ﻿using API_Escola.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace API_Escola.Controllers
 {
