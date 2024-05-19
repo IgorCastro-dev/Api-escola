@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oGtS4tYQt9EDoNhYsDVIg/1XxxeqHSV6tB7To8S+H8slzd/OSIwc0kWGAz1wFP7QlEpyN4KWhsPCH6qxSjRwOw==",
+  "dgSpecHash": "OWFjvsXhoJAgWityeE5bl53E/sYHwA0WVBsk1z+ryNOtpBLemebydpp76DcfBPACFdqYzrj+Bctl6MrIK44EWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\API_Escola.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Igor Castro\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
+    "C:\\Users\\Igor Castro\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.1\\fluentvalidation.dependencyinjectionextensions.11.9.1.nupkg.sha512",
     "C:\\Users\\Igor Castro\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\Igor Castro\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Igor Castro\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",

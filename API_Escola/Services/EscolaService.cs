@@ -4,9 +4,11 @@ public class EscolaService : IEscolaService
 
 
 
-    public Escola GetEscolaById(int id)
-    {
-        return _escolas.FirstOrDefault(e => e.iCodEscola == id);
+    public Escola GetEscolaById(int id) {
+        Console.WriteLine("printa aqui:" + id);
+        var teste = _escolas.FirstOrDefault(e => e.iCodEscola == id);
+        Console.WriteLine("printa aqui:"+ teste);
+        return teste;
     }
 
     public Escola[] listaEscolas()
@@ -19,9 +21,6 @@ public class EscolaService : IEscolaService
         Escola escola = new Escola();
         escola.iCodEscola = _escolas.Count + 1;
         escola.sDescricao = escolaDto.sDescricao;
-
-        Console.WriteLine(escola); 
-
         _escolas.Add(escola);
 
     }
@@ -42,10 +41,4 @@ public class EscolaService : IEscolaService
         return alunos;
     }
 
-    public Escola getEscolaById(int id)
-    {
-        var escolaExistente = _escolas.FirstOrDefault(e => e.iCodEscola == id);
-
-        return escolaExistente;
-    }
 }

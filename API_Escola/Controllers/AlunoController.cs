@@ -32,6 +32,7 @@ namespace API_Escola.Controllers
             {
                 return BadRequest("O aluno não pode ser nulo");
             }
+           
             if(_escolaService.GetEscolaById(alunoDto.iCodEscola) == null)
             {
                 return BadRequest("Não existe Escola vínculada com esse ID");
