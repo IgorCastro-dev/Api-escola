@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\exceptions\\alunonaoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\exceptions\\alunonaoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\exceptions\\escolanaoencontradaexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\exceptions\\escolanaoencontradaexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\exceptions\\alunonaoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\exceptions\\alunonaoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,20 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AlunoNaoEncontradoException.cs",
               "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Exceptions\\AlunoNaoEncontradoException.cs",
               "RelativeDocumentMoniker": "API_Escola\\Exceptions\\AlunoNaoEncontradoException.cs",
               "ToolTip": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Exceptions\\AlunoNaoEncontradoException.cs",
               "RelativeToolTip": "API_Escola\\Exceptions\\AlunoNaoEncontradoException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T09:34:51.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EscolaNaoEncontradaException .cs",
               "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Exceptions\\EscolaNaoEncontradaException .cs",
               "RelativeDocumentMoniker": "API_Escola\\Exceptions\\EscolaNaoEncontradaException .cs",
@@ -135,7 +135,7 @@
               "RelativeDocumentMoniker": "API_Escola\\Controllers\\EscolaController.cs",
               "ToolTip": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Controllers\\EscolaController.cs",
               "RelativeToolTip": "API_Escola\\Controllers\\EscolaController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEgAAAAQAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwEYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T10:09:28.986Z",
               "EditorCaption": ""
@@ -186,7 +186,7 @@
               "RelativeDocumentMoniker": "API_Escola\\Controllers\\AlunoController.cs",
               "ToolTip": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Controllers\\AlunoController.cs",
               "RelativeToolTip": "API_Escola\\Controllers\\AlunoController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAIwB0AAAAzAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T16:54:05.163Z",
               "EditorCaption": ""

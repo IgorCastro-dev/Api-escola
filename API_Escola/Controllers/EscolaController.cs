@@ -35,9 +35,13 @@ namespace API_Escola.Controllers
         [HttpDelete("{id}")]
         public IActionResult excluirEscola(int id)
         {
-            var alunoParaExcluir = getEscolaById(id);
+            var escolaParaExcluir = getEscolaById(id);
+            if (escolaParaExcluir == null)
+            {
+                return BadRequest("Não existe Escola vínculada com esse ID");
+            }
 
-            _escolas.Remove(alunoParaExcluir);
+            _escolas.Remove(escolaParaExcluir);
             return Ok();
         }
 
@@ -45,6 +49,10 @@ namespace API_Escola.Controllers
         public IActionResult atualizarEsola(int id, [FromBody] Escola escolaAtualizado)
         {
             var escolaExistente = getEscolaById(id);
+            if (escolaExistente == null)
+            {
+                return BadRequest("Não existe Escola vínculada com esse ID");
+            }
 
             escolaExistente.sDescricao = escolaAtualizado.sDescricao;
 
@@ -55,6 +63,10 @@ namespace API_Escola.Controllers
         public ActionResult<Escola> buscarPorId(int id)
         {
             var escolaExistente = getEscolaById(id);
+            if(escolaExistente == null)
+            {
+                return BadRequest("Não existe Escola vínculada com esse ID");
+            }
             return Ok(escolaExistente);
         }
 
@@ -68,14 +80,7 @@ namespace API_Escola.Controllers
         public static Escola getEscolaById(int id)
         {
             var escolaExistente = _escolas.FirstOrDefault(e => e.iCodEscola == id);
-            if (escolaExistente == null)
-            {
-                throw new EscolaNaoEncontradaException("Não existe Escola vinculada com esse id");
-            }
-            else
-            {
-                return escolaExistente;
-            }
+            return escolaExistente;
         }
     }
 }

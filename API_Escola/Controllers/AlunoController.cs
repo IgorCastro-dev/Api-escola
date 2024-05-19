@@ -26,8 +26,10 @@ namespace API_Escola.Controllers
             {
                 return BadRequest("O aluno não pode ser nulo");
             }
-
-            EscolaController.getEscolaById(alunoDto.iCodEscola);
+            if(EscolaController.getEscolaById(alunoDto.iCodEscola) == null)
+            {
+                return BadRequest("Não existe Escola vínculada com esse ID");
+            }
 
             Aluno aluno = new Aluno();
             aluno.iCodAluno = _alunos.Count + 1;
@@ -46,6 +48,10 @@ namespace API_Escola.Controllers
         public IActionResult ExcluirAluno(int id)
         {
             var alunoParaExcluir = getAlunoById(id);
+            if (alunoParaExcluir == null)
+            {
+                return BadRequest("Aluno não vínculado com esse ID");
+            }
 
             _alunos.Remove(alunoParaExcluir);
             return Ok();
@@ -55,8 +61,15 @@ namespace API_Escola.Controllers
         public IActionResult AtualizarAluno(int id, [FromBody] Aluno alunoAtualizado)
         {
             var alunoExistente = getAlunoById(id);
+            if (alunoExistente == null)
+            {
+                return BadRequest("Aluno não vínculado com esse ID");
+            }
 
-            EscolaController.getEscolaById(alunoAtualizado.iCodEscola);
+            if( EscolaController.getEscolaById(alunoAtualizado.iCodEscola) == null)
+            {
+                return BadRequest("Não existe Escola vínculada com esse ID");
+            }
 
             alunoExistente.dNascimento = alunoAtualizado.dNascimento;
             alunoExistente.sEndereco = alunoAtualizado.sEndereco;
@@ -78,7 +91,13 @@ namespace API_Escola.Controllers
         [HttpGet("buscarById/{id}", Name = "Buscar Por Id")]
         public ActionResult<Aluno> buscarPorId(int id)
         {
+
             var alunoExistente = getAlunoById(id);
+
+            if (alunoExistente == null)
+            {
+                return BadRequest("Aluno não vínculado com esse ID");
+            }
             return Ok(alunoExistente);
         }
 
@@ -86,14 +105,7 @@ namespace API_Escola.Controllers
         private Aluno getAlunoById(int id)
         {
             var alunoExistente = _alunos.FirstOrDefault(a => a.iCodAluno == id);
-            if (alunoExistente == null)
-            {
-                throw new AlunoNaoEncontradaException("Não existe um Aluno vínculado com esse Id");
-            }
-            else
-            {
-                return alunoExistente;
-            }
+            return alunoExistente;
         }
 
 
