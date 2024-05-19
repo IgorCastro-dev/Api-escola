@@ -45,6 +45,7 @@ public class EscolaService : IEscolaService
     public Escola getEscolaById(int id)
     {
         var escolaExistente = _escolas.FirstOrDefault(e => e.iCodEscola == id);
+
         return escolaExistente;
     }
 }
