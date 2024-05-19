@@ -7,6 +7,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddMemoryCache();
+builder.Services.AddScoped<IEscolaService, EscolaService>();
+builder.Services.AddScoped<IAlunoService, AlunoService>();
 
 builder.Services.AddCors(options =>
     options.AddPolicy(name: "MyPolicy",
