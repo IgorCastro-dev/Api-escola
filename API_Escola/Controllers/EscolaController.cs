@@ -17,12 +17,16 @@ namespace API_Escola.Controllers
         }
 
         [HttpPost("salvar")]
-        public IActionResult salvarEscola([FromBody] Escola escola)
+        public IActionResult salvarEscola([FromBody] EscolaDto escolaDto)
         {
-            if (escola == null)
+            if (escolaDto == null)
             {
                 return BadRequest("A escola não pode ser nula");
             }
+
+            Escola escola = new Escola();
+            escola.iCodEscola = _escolas.Count + 1;
+            escola.sDescricao = escolaDto.sDescricao;
 
             _escolas.Add(escola);
             return Ok();
@@ -55,11 +59,18 @@ namespace API_Escola.Controllers
             return Ok();
         }
 
-        [HttpGet("buscarById/{id}", Name = "Buscar Por Id")]
+        [HttpGet("buscarById/{id}", Name = "Buscar Escola Por Id")]
         public ActionResult<Escola> buscarPorId(int id)
         {
             var escolaExistente = _escolas.FirstOrDefault(e => e.iCodEscola == id);
             return Ok(escolaExistente);
+        }
+
+        [HttpGet("buscar/{descricao}", Name = "Buscar Por Descricao")]
+        public ActionResult<Escola[]> buscarPorDescricao(string descricao)
+        {
+            List<Escola> alunos = _escolas.Where(e => e.sDescricao == descricao).ToList();
+            return Ok(alunos);
         }
     }
 }
