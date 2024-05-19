@@ -2,12 +2,9 @@ using API_Escola.Models;
 
 public class AlunoService : IAlunoService
 {
-    private readonly List<Aluno> _alunos;
 
-    public AlunoService()
-    {
-        _alunos = new List<Aluno> { };
-    }
+    private static List<Aluno> _alunos = new List<Aluno>();
+
 
     public List<Aluno> listarAlunos()
     {
