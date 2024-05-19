@@ -11,6 +11,18 @@
       "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\controllers\\alunocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\exceptions\\alunonaoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\exceptions\\alunonaoencontradoexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\exceptions\\escolanaoencontradaexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\exceptions\\escolanaoencontradaexception .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\models\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|c:\\users\\igor castro\\workspace\\api-escola\\api_escola\\api_escola.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0A8B4433-B524-4091-ADC0-88063D07F9E0}|API_Escola\\API_Escola.csproj|solutionrelative:api_escola\\api_escola.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -50,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,20 +66,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EscolaDto.cs",
-              "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\DTO\\EscolaDto.cs",
-              "RelativeDocumentMoniker": "API_Escola\\DTO\\EscolaDto.cs",
-              "ToolTip": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\DTO\\EscolaDto.cs",
-              "RelativeToolTip": "API_Escola\\DTO\\EscolaDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "AlunoNaoEncontradoException.cs",
+              "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Exceptions\\AlunoNaoEncontradoException.cs",
+              "RelativeDocumentMoniker": "API_Escola\\Exceptions\\AlunoNaoEncontradoException.cs",
+              "ToolTip": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Exceptions\\AlunoNaoEncontradoException.cs",
+              "RelativeToolTip": "API_Escola\\Exceptions\\AlunoNaoEncontradoException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T00:47:28.509Z",
+              "WhenOpened": "2024-05-19T09:34:51.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "EscolaNaoEncontradaException .cs",
+              "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Exceptions\\EscolaNaoEncontradaException .cs",
+              "RelativeDocumentMoniker": "API_Escola\\Exceptions\\EscolaNaoEncontradaException .cs",
+              "ToolTip": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Exceptions\\EscolaNaoEncontradaException .cs",
+              "RelativeToolTip": "API_Escola\\Exceptions\\EscolaNaoEncontradaException .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T09:29:23.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\appsettings.json",
               "RelativeDocumentMoniker": "API_Escola\\appsettings.json",
@@ -83,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AlunoDto.cs",
               "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\DTO\\AlunoDto.cs",
               "RelativeDocumentMoniker": "API_Escola\\DTO\\AlunoDto.cs",
@@ -96,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "API_Escola.csproj",
               "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\API_Escola.csproj",
               "RelativeDocumentMoniker": "API_Escola\\API_Escola.csproj",
@@ -114,14 +135,14 @@
               "RelativeDocumentMoniker": "API_Escola\\Controllers\\EscolaController.cs",
               "ToolTip": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Controllers\\EscolaController.cs",
               "RelativeToolTip": "API_Escola\\Controllers\\EscolaController.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAIwEcAAABPAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-17T10:09:28.986Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Program.cs",
               "RelativeDocumentMoniker": "API_Escola\\Program.cs",
@@ -134,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "API_Escola.http",
               "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\API_Escola.http",
               "RelativeDocumentMoniker": "API_Escola\\API_Escola.http",
@@ -146,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Aluno.cs",
               "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Models\\Aluno.cs",
               "RelativeDocumentMoniker": "API_Escola\\Models\\Aluno.cs",
@@ -154,7 +175,8 @@
               "RelativeToolTip": "API_Escola\\Models\\Aluno.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:16:09.614Z"
+              "WhenOpened": "2024-05-16T17:16:09.614Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -164,14 +186,27 @@
               "RelativeDocumentMoniker": "API_Escola\\Controllers\\AlunoController.cs",
               "ToolTip": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Controllers\\AlunoController.cs",
               "RelativeToolTip": "API_Escola\\Controllers\\AlunoController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAwwEoAAAAIAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAIwB0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T16:54:05.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "EscolaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\DTO\\EscolaDto.cs",
+              "RelativeDocumentMoniker": "API_Escola\\DTO\\EscolaDto.cs",
+              "ToolTip": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\DTO\\EscolaDto.cs",
+              "RelativeToolTip": "API_Escola\\DTO\\EscolaDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T00:47:28.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Escola.cs",
               "DocumentMoniker": "C:\\Users\\Igor Castro\\workspace\\Api-escola\\API_Escola\\Models\\Escola.cs",
               "RelativeDocumentMoniker": "API_Escola\\Models\\Escola.cs",

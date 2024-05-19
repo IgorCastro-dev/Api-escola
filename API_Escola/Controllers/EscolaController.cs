@@ -35,11 +35,7 @@ namespace API_Escola.Controllers
         [HttpDelete("{id}")]
         public IActionResult excluirEscola(int id)
         {
-            var alunoParaExcluir = _escolas.FirstOrDefault(e => e.iCodEscola == id);
-            if (alunoParaExcluir == null)
-            {
-                return NotFound();
-            }
+            var alunoParaExcluir = getEscolaById(id);
 
             _escolas.Remove(alunoParaExcluir);
             return Ok();
@@ -48,11 +44,7 @@ namespace API_Escola.Controllers
         [HttpPut("{id}")]
         public IActionResult atualizarEsola(int id, [FromBody] Escola escolaAtualizado)
         {
-            var escolaExistente = _escolas.FirstOrDefault(e => e.iCodEscola == id);
-            if (escolaExistente == null)
-            {
-                return NotFound();
-            }
+            var escolaExistente = getEscolaById(id);
 
             escolaExistente.sDescricao = escolaAtualizado.sDescricao;
 
@@ -62,7 +54,7 @@ namespace API_Escola.Controllers
         [HttpGet("buscarById/{id}", Name = "Buscar Escola Por Id")]
         public ActionResult<Escola> buscarPorId(int id)
         {
-            var escolaExistente = _escolas.FirstOrDefault(e => e.iCodEscola == id);
+            var escolaExistente = getEscolaById(id);
             return Ok(escolaExistente);
         }
 
@@ -71,6 +63,19 @@ namespace API_Escola.Controllers
         {
             List<Escola> alunos = _escolas.Where(e => e.sDescricao == descricao).ToList();
             return Ok(alunos);
+        }
+
+        public static Escola getEscolaById(int id)
+        {
+            var escolaExistente = _escolas.FirstOrDefault(e => e.iCodEscola == id);
+            if (escolaExistente == null)
+            {
+                throw new EscolaNaoEncontradaException("Não existe Escola vinculada com esse id");
+            }
+            else
+            {
+                return escolaExistente;
+            }
         }
     }
 }

@@ -27,6 +27,8 @@ namespace API_Escola.Controllers
                 return BadRequest("O aluno não pode ser nulo");
             }
 
+            EscolaController.getEscolaById(alunoDto.iCodEscola);
+
             Aluno aluno = new Aluno();
             aluno.iCodAluno = _alunos.Count + 1;
             aluno.sNome = alunoDto.sNome;
@@ -43,11 +45,7 @@ namespace API_Escola.Controllers
         [HttpDelete("{id}")]
         public IActionResult ExcluirAluno(int id)
         {
-            var alunoParaExcluir = _alunos.FirstOrDefault(a => a.iCodAluno == id);
-            if (alunoParaExcluir == null)
-            {
-                return NotFound();
-            }
+            var alunoParaExcluir = getAlunoById(id);
 
             _alunos.Remove(alunoParaExcluir);
             return Ok();
@@ -56,11 +54,9 @@ namespace API_Escola.Controllers
         [HttpPut("{id}")]
         public IActionResult AtualizarAluno(int id, [FromBody] Aluno alunoAtualizado)
         {
-            var alunoExistente = _alunos.FirstOrDefault(a => a.iCodAluno == id);
-            if (alunoExistente == null)
-            {
-                return NotFound();
-            }
+            var alunoExistente = getAlunoById(id);
+
+            EscolaController.getEscolaById(alunoAtualizado.iCodEscola);
 
             alunoExistente.dNascimento = alunoAtualizado.dNascimento;
             alunoExistente.sEndereco = alunoAtualizado.sEndereco;
@@ -82,9 +78,24 @@ namespace API_Escola.Controllers
         [HttpGet("buscarById/{id}", Name = "Buscar Por Id")]
         public ActionResult<Aluno> buscarPorId(int id)
         {
-            var alunoExistente = _alunos.FirstOrDefault(a => a.iCodAluno == id);
+            var alunoExistente = getAlunoById(id);
             return Ok(alunoExistente);
         }
-    }
 
+
+        private Aluno getAlunoById(int id)
+        {
+            var alunoExistente = _alunos.FirstOrDefault(a => a.iCodAluno == id);
+            if (alunoExistente == null)
+            {
+                throw new AlunoNaoEncontradaException("Não existe um Aluno vínculado com esse Id");
+            }
+            else
+            {
+                return alunoExistente;
+            }
+        }
+
+
+    }
 }
