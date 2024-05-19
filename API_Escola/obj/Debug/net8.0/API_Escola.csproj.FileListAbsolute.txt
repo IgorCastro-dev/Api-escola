@@ -31,3 +31,36 @@ C:\Users\igorj\Documents\desafio fullstack\uma api para o desafio fullstack\API_
 C:\Users\igorj\Documents\desafio fullstack\uma api para o desafio fullstack\API_Escola\obj\Debug\net8.0\API_Escola.genruntimeconfig.cache
 C:\Users\igorj\Documents\desafio fullstack\uma api para o desafio fullstack\API_Escola\obj\Debug\net8.0\ref\API_Escola.dll
 C:\Users\igorj\Documents\desafio fullstack\uma api para o desafio fullstack\API_Escola\obj\Debug\net8.0\API_Escola.sourcelink.json
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.dll
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\refint\API_Escola.dll
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.pdb
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\appsettings.json
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\API_Escola.exe
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\API_Escola.deps.json
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\API_Escola.runtimeconfig.json
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\API_Escola.dll
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\API_Escola.pdb
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.csproj.AssemblyReference.cache
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.AssemblyInfoInputs.cache
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.AssemblyInfo.cs
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.csproj.CoreCompileInputs.cache
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.sourcelink.json
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\staticwebassets\msbuild.API_Escola.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\staticwebassets\msbuild.build.API_Escola.props
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API_Escola.props
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.API_Escola.props
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\scopedcss\bundle\API_Escola.styles.css
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.csproj.Up2Date
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.genruntimeconfig.cache
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\ref\API_Escola.dll

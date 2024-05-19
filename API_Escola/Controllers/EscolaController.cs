@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using API_Escola.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace API_Escola.Controllers
 {
@@ -52,6 +53,13 @@ namespace API_Escola.Controllers
             escolaExistente.sDescricao = escolaAtualizado.sDescricao;
 
             return Ok();
+        }
+
+        [HttpGet("buscarById/{id}", Name = "Buscar Por Id")]
+        public ActionResult<Escola> buscarPorId(int id)
+        {
+            var escolaExistente = _escolas.FirstOrDefault(e => e.iCodEscola == id);
+            return Ok(escolaExistente);
         }
     }
 }

@@ -19,12 +19,22 @@ namespace API_Escola.Controllers
         }
 
         [HttpPost("salvar")]
-        public IActionResult SalvarAluno([FromBody] Aluno aluno)
+        public IActionResult SalvarAluno([FromBody] AlunoDto alunoDto)
         {
-            if (aluno == null)
+
+            if (alunoDto == null)
             {
                 return BadRequest("O aluno não pode ser nulo");
             }
+
+            Aluno aluno = new Aluno();
+            aluno.iCodAluno = _alunos.Count + 1;
+            aluno.sNome = alunoDto.sNome;
+            aluno.sCPF = alunoDto.sCPF;
+            aluno.sCelular = alunoDto.sCelular;
+            aluno.sEndereco = alunoDto.sEndereco;
+            aluno.iCodEscola = alunoDto.iCodEscola; 
+            aluno.dNascimento = alunoDto.dNascimento;   
 
             _alunos.Add(aluno);
             return Ok();
@@ -52,6 +62,8 @@ namespace API_Escola.Controllers
                 return NotFound();
             }
 
+            alunoExistente.dNascimento = alunoAtualizado.dNascimento;
+            alunoExistente.sEndereco = alunoAtualizado.sEndereco;
             alunoExistente.sCelular = alunoAtualizado.sCelular;
             alunoExistente.sCPF= alunoAtualizado.sCPF;
             alunoExistente.iCodEscola = alunoAtualizado.iCodEscola;
@@ -61,10 +73,17 @@ namespace API_Escola.Controllers
         }
 
         [HttpGet("buscar/{dado_usuario}", Name = "Buscar Por nome e cpf")]
-        public ActionResult<Aluno> buscarPorNomeCpf(string dado_usuario)
+        public ActionResult<Aluno[]> buscarPorNomeCpf(string dado_usuario)
         {
-            var aluno = _alunos.FirstOrDefault(a => a.sCPF == dado_usuario || a.sNome == dado_usuario);
-            return Ok(aluno);
+            List<Aluno> alunos = _alunos.Where(a => a.sCPF == dado_usuario || a.sNome == dado_usuario).ToList();
+            return Ok(alunos);
+        }
+
+        [HttpGet("buscarById/{id}", Name = "Buscar Por Id")]
+        public ActionResult<Aluno> buscarPorId(int id)
+        {
+            var alunoExistente = _alunos.FirstOrDefault(a => a.iCodAluno == id);
+            return Ok(alunoExistente);
         }
     }
 
