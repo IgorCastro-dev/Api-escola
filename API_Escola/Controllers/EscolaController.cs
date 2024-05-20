@@ -14,7 +14,7 @@ namespace API_Escola.Controllers
             _escolaService = escolaService;
         }
 
-        [HttpGet("listar", Name = "SalvaEscola")]
+        [HttpGet("listar", Name = "ListarEscola")]
         public ActionResult<List<Escola>> listarEscola(IEscolaService escolaService)
         {
 

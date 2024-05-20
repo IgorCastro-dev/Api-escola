@@ -35,12 +35,11 @@ public class EscolaService : IEscolaService
     {
         List<Aluno> alunos = _alunoService.listarAlunos();
 
-        foreach (var aluno in alunos)
+        List<Aluno> alunosParaExcluir = alunos.Where(aluno => aluno.iCodEscola == escolaParaExcluir.iCodEscola).ToList();
+
+        foreach (var aluno in alunosParaExcluir)
         {
-            if (aluno.iCodEscola == escolaParaExcluir.iCodEscola)
-            {
-                _alunoService.excluirAluno(aluno);
-            }
+            _alunoService.excluirAluno(aluno);
         }
 
         _escolas.Remove(escolaParaExcluir);
