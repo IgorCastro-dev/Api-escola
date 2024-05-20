@@ -49,6 +49,6 @@ public class AlunoService : IAlunoService
     }
 
     public List<Aluno> getAlunosPorNomeCpf(string dado_usuario) {
-        return _alunos.Where(a => a.sCPF == dado_usuario || a.sNome == dado_usuario).ToList();
+        return _alunos.Where(a => a.sCPF.Contains(dado_usuario) || a.sNome.Contains(dado_usuario)).ToList();
     }
 }

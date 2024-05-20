@@ -64,3 +64,5 @@ C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\scopedcss\
 C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.csproj.Up2Date
 C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\API_Escola.genruntimeconfig.cache
 C:\Users\Igor Castro\workspace\Api-escola\API_Escola\obj\Debug\net8.0\ref\API_Escola.dll
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Igor Castro\workspace\Api-escola\API_Escola\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
